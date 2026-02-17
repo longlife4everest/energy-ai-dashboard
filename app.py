@@ -58,7 +58,7 @@ total_emissions = df['total_emission'].sum()
 
 # Helper: Forecast Logic
 # We run forecast only if needed or cached
-@st.cache_resource
+
 def get_forecast(data):
     return train_and_forecast(data)
 
