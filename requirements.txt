@@ -5,3 +5,4 @@ joblib
 plotly
 streamlit
 watchdog
+altair==4.2.2
